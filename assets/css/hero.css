@@ -6,14 +6,48 @@
     position: relative;
 }
 
-
-
 .imgGroup{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
+    /* position: relative; */
 }
 
 .floatingImg{
     position: absolute;
+    width: 400px;
+    height: 300px;
+}
+
+.textGrp{
+    font-family: var(--font-durk);
+    letter-spacing: 0;
+    position: absolute;
+    bottom: 35%;
+    right: -20%;
+}
+
+.textGrp p{
+    font-size: 12px;
+}
+
+.textGrp h2{
+    flex: 18px;
+}
+
+#largeText{
+    font-size: 80px;
+    font-family: var(--font-durk);
+    max-width: 700px;
+    z-index: 100;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 82px;
+    letter-spacing: -2px;
+}
+
+#largeText:hover{
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff84;
+    z-index: -10;
 }

@@ -1,5 +1,5 @@
-1. on scroll navbar hides 
+1. on scroll navbar hides ✅
 2. as soon as we hover on a image we see 3 obeservatiosn 
-    1. out bunch of text color gets transparent and it gets white outline and it goes to the back
+    1. out bunch of text color gets transparent and it gets white outline and it goes to the back ✅
     2. all other images vanish and gets converted into wireframe
     3. the hoverd image follows our cusrsor

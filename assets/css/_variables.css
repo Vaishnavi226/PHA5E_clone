@@ -1,0 +1,15 @@
+/* this file stores common colors fonts etc  */
+:root {
+    /* colors  */
+    --main-bg:#212121;
+    --text-color:#fff;
+
+    /* fonts  */
+    --font-durk: 'Durk', sans-serif;
+}
+
+/* fonts  */
+@font-face {
+    font-family: 'Durk';
+    src: url('../fonts/DrukWideBold.woff');
+}
